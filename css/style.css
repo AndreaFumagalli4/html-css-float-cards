@@ -31,7 +31,7 @@ section.top>h1{
     clear: both;
 }
 
-section.clearfix>div.float-left{
+.float-left{
     float: left;
 }
 
@@ -49,12 +49,12 @@ div.employee-box>img{
 div.employee-box>div.description{
     display: inline-block;
     color: white;
-    margin-left: .5rem; 
+    margin-left: .8rem; 
 }
 
 div.description>span{
     display: block;
-    padding-bottom: .6rem;
+    padding-top: .5rem;
 }
 
 div.description>span.name{

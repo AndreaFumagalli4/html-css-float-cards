@@ -39,5 +39,33 @@ section.clearfix>div.employee-box{
     width: calc((100% / 3) - 1rem);
     background-color: #0f0e17;
     margin: 0 0 2rem 1rem;
+    color: white;
 }
+
+div.employee-box>img{
+    width: 30%;
+}
+
+div.employee-box>div.description{
+    display: inline-block;
+    color: white;
+    margin-left: .5rem; 
+}
+
+div.description>span{
+    display: block;
+    padding-bottom: .6rem;
+}
+
+div.description>span.name{
+    font-weight: bolder;
+    
+}
+
+div.description>span.email{
+    color: #0b96d9;
+}
+
+
+
 

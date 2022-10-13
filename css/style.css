@@ -16,6 +16,7 @@ main.container{
 
 main.container>section.top{
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 section.top>h1{
@@ -23,3 +24,20 @@ section.top>h1{
     color: #e53170;
     font-size: 2rem;
 }
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+section.clearfix>div.float-left{
+    float: left;
+}
+
+section.clearfix>div.employee-box{
+    width: calc((100% / 3) - 1rem);
+    background-color: #0f0e17;
+    margin: 0 0 2rem 1rem;
+}
+
